@@ -1,10 +1,10 @@
 #include <iostream>
-#include "nredis_core.h"
+#include "kvick_core.h"
 
 int main() {
     std::cout << kv::get_version() << std::endl;
 
-    NRedisCore store;
+    KVickCore store;
 
     store.set("user", "disha");
     

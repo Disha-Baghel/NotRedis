@@ -7,9 +7,9 @@ namespace kv {
     std::string get_version();
 }
 
-class NRedisCore {
+class KVickCore {
 public:
-    NRedisCore();
+    KVickCore();
     bool set(const std::string& key, const std::string& value);
     std::string get(const std::string& key) const;
     bool del(const std::string& key);
